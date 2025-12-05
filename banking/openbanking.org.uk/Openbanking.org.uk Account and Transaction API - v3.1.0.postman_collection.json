@@ -1,9 +1,11 @@
 {
 	"info": {
-		"_postman_id": "92e8f1bc-a7b8-4deb-837a-6f8194fc7898",
+		"_postman_id": "cff9373c-4662-4879-b3f7-571d5511c570",
 		"name": "Openbanking.co.uk Account and Transaction API v3.1.0",
 		"description": "version=3.1.0 - Openbanking.co.uk for Account and Transaction API Specification as decribed on https://raw.githubusercontent.com/OpenBankingUK/read-write-api-specs/v3.1.0/dist/account-info-swagger.yaml",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50604651",
+		"_collection_link": "https://druminik-de3c14ca-4134073.postman.co/workspace/Dominik-Liebmann-'s-Workspace~0a3473f8-53b8-41d5-8e4e-a43410b65e36/collection/50604651-cff9373c-4662-4879-b3f7-571d5511c570?action=share&source=collection_link&creator=50604651"
 	},
 	"item": [
 		{
@@ -52,15 +54,12 @@
 							"raw": "Default"
 						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/account-access-consents",
+							"raw": "https:://open-banking/v3.1/aisp/account-access-consents",
+							"protocol": "https:",
 							"host": [
-								"https:"
+								"open-banking"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
-								"open-banking",
 								"v3.1",
 								"aisp",
 								"account-access-consents"
@@ -79,8 +78,8 @@
 									},
 									{
 										"key": "Content-Type",
-										"name": "Content-Type",
 										"value": "application/json",
+										"name": "Content-Type",
 										"type": "text"
 									},
 									{
@@ -109,15 +108,12 @@
 									"raw": "{\n  \"Data\": {\n    \"Permissions\": [\n      \"ReadAccountsDetail\",\n      \"ReadBalances\",\n      \"ReadBeneficiariesDetail\",\n      \"ReadDirectDebits\",\n      \"ReadProducts\",\n      \"ReadStandingOrdersDetail\",\n      \"ReadTransactionsCredits\",\n      \"ReadTransactionsDebits\",\n      \"ReadTransactionsDetail\",\n      \"ReadOffers\",\n      \"ReadPAN\",\n      \"ReadParty\",\n      \"ReadPartyPSU\",\n      \"ReadScheduledPaymentsDetail\",\n      \"ReadStatementsDetail\"\n    ],\n    \"ExpirationDateTime\": \"2017-05-02T00:00:00+00:00\",\n    \"TransactionFromDateTime\": \"2017-05-03T00:00:00+00:00\",\n    \"TransactionToDateTime\": \"2017-12-03T00:00:00+00:00\"\n  },\n  \"Risk\": {}\n}"
 								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/account-access-consents",
+									"raw": "https:://open-banking/v3.1/aisp/account-access-consents",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"account-access-consents"
@@ -149,8 +145,8 @@
 									},
 									{
 										"key": "Content-Type",
-										"name": "Content-Type",
 										"value": "application/json",
+										"name": "Content-Type",
 										"type": "text"
 									},
 									{
@@ -184,15 +180,12 @@
 									"raw": "{\n    \"Data\": {\n        \"Permissions\": [\n            \"ReadAccountsBasic\",\n            \"ReadBalances\"\n        ],\n        \"ExpirationDateTime\": \"2017-05-02T00:00:00+00:00\",\n        \"TransactionFromDateTime\": \"2017-05-03T00:00:00+00:00\",\n        \"TransactionToDateTime\": \"2017-12-03T00:00:00+00:00\"\n    },\n    \"Risk\": {}\n}"
 								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/account-access-consents",
+									"raw": "https:://open-banking/v3.1/aisp/account-access-consents",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"account-access-consents"
@@ -253,20 +246,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/account-access-consents/:ConsentId",
+							"raw": "https:://open-banking/v3.1/aisp/account-access-consents/:ConsentId",
+							"protocol": "https:",
 							"host": [
-								"https:"
+								"open-banking"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
-								"open-banking",
 								"v3.1",
 								"aisp",
 								"account-access-consents",
@@ -320,20 +306,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/account-access-consents/:ConsentId",
+									"raw": "https:://open-banking/v3.1/aisp/account-access-consents/:ConsentId",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"account-access-consents",
@@ -400,20 +379,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/account-access-consents/:ConsentId",
+									"raw": "https:://open-banking/v3.1/aisp/account-access-consents/:ConsentId",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"account-access-consents",
@@ -481,17 +453,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/account-access-consents/:ConsentId",
+							"raw": "https:://open-banking/v3.1/aisp/account-access-consents/:ConsentId",
+							"protocol": "https:",
 							"host": [
-								"https:"
+								"open-banking"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
-								"open-banking",
 								"v3.1",
 								"aisp",
 								"account-access-consents",
@@ -545,17 +513,13 @@
 										"type": "text"
 									}
 								],
-								"body": {},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/account-access-consents/:ConsentId",
+									"raw": "https:://open-banking/v3.1/aisp/account-access-consents/:ConsentId",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"account-access-consents",
@@ -571,7 +535,7 @@
 							},
 							"status": "No Content",
 							"code": 204,
-							"_postman_previewlanguage": null,
+							"_postman_previewlanguage": "Text",
 							"header": [
 								{
 									"key": "x-fapi-interaction-id",
@@ -581,7 +545,7 @@
 								}
 							],
 							"cookie": [],
-							"body": null
+							"body": ""
 						}
 					]
 				}
@@ -592,7 +556,7 @@
 			"name": "accounts",
 			"item": [
 				{
-					"name": "Get Accounts",
+					"name": "Get Accounts Bulk",
 					"request": {
 						"method": "GET",
 						"header": [
@@ -629,19 +593,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/accounts",
+							"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts",
+							"protocol": "https",
 							"host": [
-								"https:"
+								"{{host}}"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
 								"open-banking",
 								"v3.1",
 								"aisp",
@@ -651,7 +609,7 @@
 					},
 					"response": [
 						{
-							"name": "Get Accounts bulk - Detail Permission",
+							"name": "Get Accounts bulk 2 - Detail Permission",
 							"originalRequest": {
 								"method": "GET",
 								"header": [
@@ -684,19 +642,13 @@
 										"value": "Bearer Az90SAOJklae"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts",
+									"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts",
+									"protocol": "https",
 									"host": [
-										"https:"
+										"{{host}}"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
 										"open-banking",
 										"v3.1",
 										"aisp",
@@ -706,7 +658,7 @@
 							},
 							"status": "OK",
 							"code": 200,
-							"_postman_previewlanguage": "json",
+							"_postman_previewlanguage": "text",
 							"header": [
 								{
 									"key": "x-fapi-interaction-id",
@@ -716,7 +668,7 @@
 								}
 							],
 							"cookie": [],
-							"body": "{\n    \"Data\": {\n        \"Account\": [\n            {\n                \"AccountId\": \"22289\",\n                \"Currency\": \"GBP\",\n                \"AccountType\": \"Personal\",\n                \"AccountSubType\": \"CurrentAccount\",\n                \"Nickname\": \"Bills\",\n                \"Account\": {\n                    \"SchemeName\": \"UK.OBIE.SortCodeAccountNumber\",\n                    \"Identification\": \"80200110203345\",\n                    \"Name\": \"Mr Kevin\",\n                    \"SecondaryIdentification\": \"00021\"\n                }\n            },\n            {\n                \"AccountId\": \"31820\",\n                \"Currency\": \"GBP\",\n                \"AccountType\": \"Personal\",\n                \"AccountSubType\": \"CurrentAccount\",\n                \"Nickname\": \"Household\",\n                \"Account\": {\n                    \"SchemeName\": \"UK.OBIE.SortCodeAccountNumber\",\n                    \"Identification\": \"80200110203348\",\n                    \"Name\": \"Mr Kevin\"\n                }\n            }\n        ]\n    },\n    \"Links\": {\n        \"Self\": \"https://api.alphabank.com/open-banking/v3.1/aisp/accounts/\"\n    },\n    \"Meta\": {\n        \"TotalPages\": 1\n    }\n}"
+							"body": "{\n    \"Data\": {\n        \"Account\": [\n            {\n                \"AccountId\": \"22289\",\n                \"Currency\": \"GBP\",\n                \"AccountType\": \"Personal\",\n                \"AccountSubType\": \"CurrentAccount\",\n                \"Nickname\": \"Bills\",\n                \"Account\": {\n                    \"SchemeName\": \"UK.OBIE.SortCodeAccountNumber\",\n                    \"Identification\": \"80200110203345\",\n                    \"Name\": \"Alice\",\n                    \"SecondaryIdentification\": \"00021\"\n                }\n            },\n            {\n                \"AccountId\": \"31820\",\n                \"Currency\": \"GBP\",\n                \"AccountType\": \"Personal\",\n                \"AccountSubType\": \"CurrentAccount\",\n                \"Nickname\": \"Household\",\n                \"Account\": {\n                    \"SchemeName\": \"UK.OBIE.SortCodeAccountNumber\",\n                    \"Identification\": \"80200110203349\",\n                    \"Name\": \"Alice\"\n                }\n            },\n            {\n                \"AccountId\": \"22305\",\n                \"Currency\": \"GBP\",\n                \"AccountType\": \"Personal\",\n                \"AccountSubType\": \"CurrentAccount\",\n                \"Nickname\": \"Savings\",\n                \"Account\": {\n                    \"SchemeName\": \"UK.OBIE.SortCodeAccountNumber\",\n                    \"Identification\": \"80200110203344\",\n                    \"Name\": \"Peter\",\n                    \"SecondaryIdentification\": \"00021\"\n                }\n            },\n            {\n                \"AccountId\": \"22390\",\n                \"Currency\": \"GBP\",\n                \"AccountType\": \"Personal\",\n                \"AccountSubType\": \"CurrentAccount\",\n                \"Nickname\": \"Vacations\",\n                \"Account\": {\n                    \"SchemeName\": \"UK.OBIE.SortCodeAccountNumber\",\n                    \"Identification\": \"80200110203347\",\n                    \"Name\": \"James\"\n                }\n            },\n        ]\n    },\n    \"Links\": {\n        \"Self\": \"https://api.alphabank.com/open-banking/v3.1/aisp/accounts/\"\n    },\n    \"Meta\": {\n        \"TotalPages\": 1\n    }\n}"
 						}
 					]
 				},
@@ -758,19 +710,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId",
+							"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId",
+							"protocol": "https",
 							"host": [
-								"https:"
+								"{{host}}"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
 								"open-banking",
 								"v3.1",
 								"aisp",
@@ -825,19 +771,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId",
+									"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId",
+									"protocol": "https",
 									"host": [
-										"https:"
+										"{{host}}"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
 										"open-banking",
 										"v3.1",
 										"aisp",
@@ -905,19 +845,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/balances",
+							"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/balances",
+							"protocol": "https",
 							"host": [
-								"https:"
+								"{{host}}"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
 								"open-banking",
 								"v3.1",
 								"aisp",
@@ -973,19 +907,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/balances",
+									"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/balances",
+									"protocol": "https",
 									"host": [
-										"https:"
+										"{{host}}"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
 										"open-banking",
 										"v3.1",
 										"aisp",
@@ -1055,19 +983,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/beneficiaries",
+							"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/beneficiaries",
+							"protocol": "https",
 							"host": [
-								"https:"
+								"{{host}}"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
 								"open-banking",
 								"v3.1",
 								"aisp",
@@ -1123,19 +1045,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/beneficiaries",
+									"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/beneficiaries",
+									"protocol": "https",
 									"host": [
-										"https:"
+										"{{host}}"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
 										"open-banking",
 										"v3.1",
 										"aisp",
@@ -1205,19 +1121,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/direct-debits",
+							"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/direct-debits",
+							"protocol": "https",
 							"host": [
-								"https:"
+								"{{host}}"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
 								"open-banking",
 								"v3.1",
 								"aisp",
@@ -1273,19 +1183,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/direct-debits",
+									"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/direct-debits",
+									"protocol": "https",
 									"host": [
-										"https:"
+										"{{host}}"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
 										"open-banking",
 										"v3.1",
 										"aisp",
@@ -1355,19 +1259,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/offers",
+							"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/offers",
+							"protocol": "https",
 							"host": [
-								"https:"
+								"{{host}}"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
 								"open-banking",
 								"v3.1",
 								"aisp",
@@ -1423,19 +1321,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/offers",
+									"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/offers",
+									"protocol": "https",
 									"host": [
-										"https:"
+										"{{host}}"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
 										"open-banking",
 										"v3.1",
 										"aisp",
@@ -1505,19 +1397,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/party",
+							"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/party",
+							"protocol": "https",
 							"host": [
-								"https:"
+								"{{host}}"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
 								"open-banking",
 								"v3.1",
 								"aisp",
@@ -1573,19 +1459,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/party",
+									"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/party",
+									"protocol": "https",
 									"host": [
-										"https:"
+										"{{host}}"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
 										"open-banking",
 										"v3.1",
 										"aisp",
@@ -1655,19 +1535,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/product",
+							"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/product",
+							"protocol": "https",
 							"host": [
-								"https:"
+								"{{host}}"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
 								"open-banking",
 								"v3.1",
 								"aisp",
@@ -1723,19 +1597,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"protocol": "https",
 									"host": [
-										"https:"
+										"{{host}}"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
 										"open-banking",
 										"v3.1",
 										"aisp",
@@ -1804,19 +1672,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"protocol": "https",
 									"host": [
-										"https:"
+										"{{host}}"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
 										"open-banking",
 										"v3.1",
 										"aisp",
@@ -1885,19 +1747,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"protocol": "https",
 									"host": [
-										"https:"
+										"{{host}}"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
 										"open-banking",
 										"v3.1",
 										"aisp",
@@ -1916,7 +1772,7 @@
 							"status": "OK",
 							"code": 200,
 							"_postman_previewlanguage": "json",
-							"header": null,
+							"header": [],
 							"cookie": [],
 							"body": "{\n    \"Data\": {\n        \"Product\": [\n            {\n                \"AccountId\": \"22394\",\n                \"ProductId\": \"HSBC1234BCA\",\n                \"ProductType\": \"BusinessCurrentAccount\",\n                \"ProductName\": \"BCA Startup Current Account\",\n                \"PCA\": {\n                    \"OtherFeesCharges\": [\n                        {\n                            \"TariffType\": \"Mixed\",\n                            \"TariffName\": \"Small Business Tariff\",\n                            \"FeeChargeDetail\": {\n                                \"FeeCategory\": \"Servicing\",\n                                \"FeeType\": \"ServiceCAccountFeeMonthly\",\n                                \"FeeAmount\": \"5.50\",\n                                \"CalculationFrequency\": \"Monthly\",\n                                \"ApplicationFrequency\": \"Monthly\",\n                                \"Notes\": [\n                                    \"Standard account charges. Small Business Tariff.\"\n                                ]\n                            }\n                        },\n                        {\n                            \"TariffType\": \"Electronic\",\n                            \"TariffName\": \"Electronic Banking Tariff\",\n                            \"FeeChargeDetail\": {\n                                \"FeeCategory\": \"Servicing\",\n                                \"FeeType\": \"ServiceCAccountFeeMonthly\",\n                                \"FeeAmount\": \"5.50\",\n                                \"CalculationFrequency\": \"Monthly\",\n                                \"ApplicationFrequency\": \"Monthly\",\n                                \"Notes\": [\n                                    \"Standard account charges. Electronic Banking Tariff.\"\n                                ]\n                            }\n                        }\n                    ]\n                }\n            }\n        ]\n    },\n    \"Links\": {\n        \"Self\": \"https://api.alphabank.com/open-banking/v3.1/aisp/accounts/22394/product\"\n    },\n    \"Meta\": {\n        \"TotalPages\": 1\n    }\n}"
 						},
@@ -1959,20 +1815,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"raw": "https:://open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"accounts",
@@ -2040,20 +1889,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"raw": "https:://open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"accounts",
@@ -2121,20 +1963,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"raw": "https:://open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"accounts",
@@ -2202,20 +2037,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"raw": "https:://open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"accounts",
@@ -2283,20 +2111,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"raw": "https:://open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"accounts",
@@ -2364,20 +2185,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"raw": "https:://open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"accounts",
@@ -2445,20 +2259,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"raw": "https:://open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"accounts",
@@ -2526,20 +2333,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"raw": "https:://open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"accounts",
@@ -2607,20 +2407,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"raw": "https:://open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"accounts",
@@ -2688,20 +2481,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"raw": "https:://open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"accounts",
@@ -2769,20 +2555,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"raw": "https:://open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"accounts",
@@ -2850,20 +2629,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"raw": "https:://open-banking/v3.1/aisp/accounts/:AccountId/product",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"accounts",
@@ -2932,19 +2704,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/scheduled-payments",
+							"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/scheduled-payments",
+							"protocol": "https",
 							"host": [
-								"https:"
+								"{{host}}"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
 								"open-banking",
 								"v3.1",
 								"aisp",
@@ -3000,19 +2766,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/scheduled-payments",
+									"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/scheduled-payments",
+									"protocol": "https",
 									"host": [
-										"https:"
+										"{{host}}"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
 										"open-banking",
 										"v3.1",
 										"aisp",
@@ -3082,19 +2842,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/standing-orders",
+							"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/standing-orders",
+							"protocol": "https",
 							"host": [
-								"https:"
+								"{{host}}"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
 								"open-banking",
 								"v3.1",
 								"aisp",
@@ -3150,19 +2904,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/standing-orders",
+									"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/standing-orders",
+									"protocol": "https",
 									"host": [
-										"https:"
+										"{{host}}"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
 										"open-banking",
 										"v3.1",
 										"aisp",
@@ -3195,7 +2943,7 @@
 					]
 				},
 				{
-					"name": "Get Statements",
+					"name": "Get Statements 1",
 					"request": {
 						"method": "GET",
 						"header": [
@@ -3232,19 +2980,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/statements?fromStatementDateTime={{fromStatementDateTime}}&toStatementDateTime={{toStatementDateTime}}",
+							"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/statements?fromStatementDateTime={{fromStatementDateTime}}&toStatementDateTime={{toStatementDateTime}}",
+							"protocol": "https",
 							"host": [
-								"https:"
+								"{{host}}"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
 								"open-banking",
 								"v3.1",
 								"aisp",
@@ -3310,20 +3052,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https://open-banking/v3.1/aisp/accounts/:AccountId/statements?fromStatementDateTime=2017-09-01T00:00:00+00:00&toStatementDateTime=2017-10-02T00:00:00+00:00",
+									"raw": "https:://open-banking/v3.1/aisp/accounts/:AccountId/statements?fromStatementDateTime=2017-09-01T00:00:00+00:00&toStatementDateTime=2017-10-02T00:00:00+00:00",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"accounts",
@@ -3365,7 +3100,7 @@
 					]
 				},
 				{
-					"name": "Get Statements",
+					"name": "Get Statements 2",
 					"request": {
 						"method": "GET",
 						"header": [
@@ -3402,19 +3137,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/statements/:StatementId",
+							"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/statements/:StatementId",
+							"protocol": "https",
 							"host": [
-								"https:"
+								"{{host}}"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
 								"open-banking",
 								"v3.1",
 								"aisp",
@@ -3425,12 +3154,12 @@
 							],
 							"variable": [
 								{
-									"key": "StatementId",
-									"value": "{{StatementId}}"
-								},
-								{
 									"key": "AccountId",
 									"value": "{{AccountId}}"
+								},
+								{
+									"key": "StatementId",
+									"value": "{{StatementId}}"
 								}
 							]
 						}
@@ -3475,19 +3204,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/statements/:StatementId",
+									"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/statements/:StatementId",
+									"protocol": "https",
 									"host": [
-										"https:"
+										"{{host}}"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
 										"open-banking",
 										"v3.1",
 										"aisp",
@@ -3562,19 +3285,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/statements/:StatementId/file",
+							"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/statements/:StatementId/file",
+							"protocol": "https",
 							"host": [
-								"https:"
+								"{{host}}"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
 								"open-banking",
 								"v3.1",
 								"aisp",
@@ -3586,12 +3303,12 @@
 							],
 							"variable": [
 								{
-									"key": "StatementId",
-									"value": "{{StatementId}}"
-								},
-								{
 									"key": "AccountId",
 									"value": "{{AccountId}}"
+								},
+								{
+									"key": "StatementId",
+									"value": "{{StatementId}}"
 								}
 							]
 						}
@@ -3636,19 +3353,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/statements/:StatementId/transactions",
+							"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/statements/:StatementId/transactions",
+							"protocol": "https",
 							"host": [
-								"https:"
+								"{{host}}"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
 								"open-banking",
 								"v3.1",
 								"aisp",
@@ -3660,12 +3371,12 @@
 							],
 							"variable": [
 								{
-									"key": "StatementId",
-									"value": "{{StatementId}}"
-								},
-								{
 									"key": "AccountId",
 									"value": "{{AccountId}}"
+								},
+								{
+									"key": "StatementId",
+									"value": "{{StatementId}}"
 								}
 							]
 						}
@@ -3710,19 +3421,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/transactions?fromBookingDateTime={{fromBookingDateTime}}&toBookingDateTime={{toBookingDateTime}}",
+							"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/transactions?fromBookingDateTime={{fromBookingDateTime}}&toBookingDateTime={{toBookingDateTime}}",
+							"protocol": "https",
 							"host": [
-								"https:"
+								"{{host}}"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
 								"open-banking",
 								"v3.1",
 								"aisp",
@@ -3788,19 +3493,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/accounts/:AccountId/transactions",
+									"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/transactions",
+									"protocol": "https",
 									"host": [
-										"https:"
+										"{{host}}"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
 										"open-banking",
 										"v3.1",
 										"aisp",
@@ -3818,7 +3517,7 @@
 							},
 							"status": "Forbidden",
 							"code": 403,
-							"_postman_previewlanguage": null,
+							"_postman_previewlanguage": "Text",
 							"header": [
 								{
 									"key": "x-fapi-interaction-id",
@@ -3828,7 +3527,7 @@
 								}
 							],
 							"cookie": [],
-							"body": null
+							"body": ""
 						},
 						{
 							"name": "Get Transactions - 22289",
@@ -3869,19 +3568,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https://open-banking/v3.1/aisp/accounts/:AccountId/transactions?fromBookingDateTime=2017-05-03T00:00:00+00:00&toBookingDateTime=2017-12-03T00:00:00+00:00",
+									"raw": "https://{{host}}/open-banking/v3.1/aisp/accounts/:AccountId/transactions?fromBookingDateTime=2017-05-03T00:00:00+00:00&toBookingDateTime=2017-12-03T00:00:00+00:00",
+									"protocol": "https",
 									"host": [
-										"https:"
+										"{{host}}"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
 										"open-banking",
 										"v3.1",
 										"aisp",
@@ -3967,20 +3660,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/balances",
+							"raw": "https:://open-banking/v3.1/aisp/balances",
+							"protocol": "https:",
 							"host": [
-								"https:"
+								"open-banking"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
-								"open-banking",
 								"v3.1",
 								"aisp",
 								"balances"
@@ -4027,20 +3713,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/balances",
+									"raw": "https:://open-banking/v3.1/aisp/balances",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"balances"
@@ -4107,20 +3786,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/beneficiaries",
+							"raw": "https:://open-banking/v3.1/aisp/beneficiaries",
+							"protocol": "https:",
 							"host": [
-								"https:"
+								"open-banking"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
-								"open-banking",
 								"v3.1",
 								"aisp",
 								"beneficiaries"
@@ -4167,20 +3839,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/beneficiaries",
+									"raw": "https:://open-banking/v3.1/aisp/beneficiaries",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"beneficiaries"
@@ -4247,20 +3912,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/direct-debits",
+							"raw": "https:://open-banking/v3.1/aisp/direct-debits",
+							"protocol": "https:",
 							"host": [
-								"https:"
+								"open-banking"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
-								"open-banking",
 								"v3.1",
 								"aisp",
 								"direct-debits"
@@ -4307,20 +3965,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/direct-debits",
+									"raw": "https:://open-banking/v3.1/aisp/direct-debits",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"direct-debits"
@@ -4387,20 +4038,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/offers",
+							"raw": "https:://open-banking/v3.1/aisp/offers",
+							"protocol": "https:",
 							"host": [
-								"https:"
+								"open-banking"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
-								"open-banking",
 								"v3.1",
 								"aisp",
 								"offers"
@@ -4447,20 +4091,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/offers",
+									"raw": "https:://open-banking/v3.1/aisp/offers",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"offers"
@@ -4527,20 +4164,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/party",
+							"raw": "https:://open-banking/v3.1/aisp/party",
+							"protocol": "https:",
 							"host": [
-								"https:"
+								"open-banking"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
-								"open-banking",
 								"v3.1",
 								"aisp",
 								"party"
@@ -4587,20 +4217,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/party",
+									"raw": "https:://open-banking/v3.1/aisp/party",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"party"
@@ -4667,20 +4290,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/products",
+							"raw": "https:://open-banking/v3.1/aisp/products",
+							"protocol": "https:",
 							"host": [
-								"https:"
+								"open-banking"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
-								"open-banking",
 								"v3.1",
 								"aisp",
 								"products"
@@ -4733,20 +4349,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/scheduled-payments",
+							"raw": "https:://open-banking/v3.1/aisp/scheduled-payments",
+							"protocol": "https:",
 							"host": [
-								"https:"
+								"open-banking"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
-								"open-banking",
 								"v3.1",
 								"aisp",
 								"scheduled-payments"
@@ -4793,20 +4402,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/scheduled-payments",
+									"raw": "https:://open-banking/v3.1/aisp/scheduled-payments",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"scheduled-payments"
@@ -4873,20 +4475,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/standing-orders",
+							"raw": "https:://open-banking/v3.1/aisp/standing-orders",
+							"protocol": "https:",
 							"host": [
-								"https:"
+								"open-banking"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
-								"open-banking",
 								"v3.1",
 								"aisp",
 								"standing-orders"
@@ -4933,20 +4528,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https:///open-banking/v3.1/aisp/standing-orders",
+									"raw": "https:://open-banking/v3.1/aisp/standing-orders",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"standing-orders"
@@ -5013,20 +4601,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/statements?fromStatementDateTime={{fromStatementDateTime}}&toStatementDateTime={{toStatementDateTime}}",
+							"raw": "https:://open-banking/v3.1/aisp/statements?fromStatementDateTime={{fromStatementDateTime}}&toStatementDateTime={{toStatementDateTime}}",
+							"protocol": "https:",
 							"host": [
-								"https:"
+								"open-banking"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
-								"open-banking",
 								"v3.1",
 								"aisp",
 								"statements"
@@ -5083,20 +4664,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https://open-banking/v3.1/aisp/statements?fromStatementDateTime=2017-09-01T00:00:00+00:00&toStatementDateTime=2017-10-02T00:00:00+00:00",
+									"raw": "https:://open-banking/v3.1/aisp/statements?fromStatementDateTime=2017-09-01T00:00:00+00:00&toStatementDateTime=2017-10-02T00:00:00+00:00",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"statements"
@@ -5173,20 +4747,13 @@
 								"value": "{{x-customer-user-agent}}"
 							}
 						],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
-							"raw": "https:///open-banking/v3.1/aisp/transactions?fromBookingDateTime={{fromBookingDateTime}}&toBookingDateTime={{toBookingDateTime}}",
+							"raw": "https:://open-banking/v3.1/aisp/transactions?fromBookingDateTime={{fromBookingDateTime}}&toBookingDateTime={{toBookingDateTime}}",
+							"protocol": "https:",
 							"host": [
-								"https:"
+								"open-banking"
 							],
-							"port": "",
 							"path": [
-								"",
-								"",
-								"open-banking",
 								"v3.1",
 								"aisp",
 								"transactions"
@@ -5243,20 +4810,13 @@
 										"type": "text"
 									}
 								],
-								"body": {
-									"mode": "raw",
-									"raw": ""
-								},
 								"url": {
-									"raw": "https://open-banking/v3.1/aisp/transactions?fromBookingDateTime=2017-05-03T00:00:00+00:00&toBookingDateTime=2017-12-03T00:00:00+00:00",
+									"raw": "https:://open-banking/v3.1/aisp/transactions?fromBookingDateTime=2017-05-03T00:00:00+00:00&toBookingDateTime=2017-12-03T00:00:00+00:00",
+									"protocol": "https:",
 									"host": [
-										"https:"
+										"open-banking"
 									],
-									"port": "",
 									"path": [
-										"",
-										"",
-										"open-banking",
 										"v3.1",
 										"aisp",
 										"transactions"
@@ -5297,7 +4857,6 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "9f68ef70-ead9-42e7-8e5a-f498c930ab0a",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -5307,7 +4866,6 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "58aa14e1-b90c-4b2a-b8c1-3219b703d75a",
 				"type": "text/javascript",
 				"exec": [
 					""
